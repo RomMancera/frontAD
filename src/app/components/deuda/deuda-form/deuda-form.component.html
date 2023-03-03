@@ -1,0 +1,63 @@
+<div class="col-lg-10 mx-auto">
+  <form (ngSubmit)="agregarDeuda()" [formGroup]="formDeuda">
+    <div class="mb-3">
+      <label  class="form-label">Orden</label>
+      <input type="text" class="form-control" formControlName="orden" name="orden" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Fecha sistema</label>
+      <input type="date" class="form-control" formControlName="fecha_sistema" name="fecha_sistema" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Fecha venta</label>
+      <input type="date" class="form-control" formControlName="fecha_venta" name="fecha_venta" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">unidad de negocio</label>
+      <input type="text" class="form-control" formControlName="unidad_negocio" name="unidad_negocio" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">retraso dias</label>
+      <input type="text" class="form-control" formControlName="retraso_dias" name="retraso_dias" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">retraso semanas</label>
+      <input type="text" class="form-control" formControlName="retraso_semanas" name="retraso_semanas" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">responsable</label>
+      <input type="text" class="form-control" formControlName="responsable" name="responsable" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">descripcion</label>
+      <input type="text" class="form-control" formControlName="descripcion" name="descripcion" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">cliente</label>
+      <input type="text" class="form-control" formControlName="cliente" name="cliente" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">deuda inicial</label>
+      <input type="text" class="form-control" formControlName="deuda_inicial" name="deuda_inicial" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">pagos</label>
+      <input type="text" class="form-control" formControlName="pagos" name="pagos" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">deuda final</label>
+      <input type="text" class="form-control" formControlName="deuda_final" name="deuda_final" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">notas</label>
+      <input type="text" class="form-control" formControlName="notas" name="notas" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">moneda</label>
+      <input type="text" class="form-control" formControlName="moneda" name="moneda" placeholder="name@example.com">
+    </div>
+    <div>
+      <button type="submit" class=" btn btn-success" >guardar</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,16 @@
+<div class="col-lg-10 mx-auto">
+  <form (ngSubmit)="login()" [formGroup]="auth">
+    <div class="mb-3">
+      <label  class="form-label">correo</label>
+      <input type="text" class="form-control" formControlName="correo" name="correo" placeholder="name@example.com">
+    </div>
+
+    <div class="mb-3">
+      <label  class="form-label">contraseña</label>
+      <input type="password" class="form-control" formControlName="contraseña" name="contraseña" placeholder="name@example.com">
+    </div>
+    <div>
+      <button type="submit" class="btn btn-success">Login</button>
+    </div>
+  </form>
+</div>
